@@ -24,7 +24,7 @@ if($usr[0]['usr']=="")
 		if($each['time']>(time()-3600*24)) $cnt++;
 	}
 
-	if($cnt>15)  
+	if($cnt>20)  
 	{
 		echo json_encode(array("code"=>2));
 	
